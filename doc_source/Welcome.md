@@ -10,6 +10,7 @@
       * built-in AWS configuration & operational best practices 
         * Reason: 🧠 it's fully managed 🧠
       * 👀NO need to manage control plane, nodes, or add\-ons 👀
+    * regional service
   * integrations
     * with
       * AWS tools &
