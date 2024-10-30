@@ -1,20 +1,17 @@
 # Getting started with the console using Linux containers on AWS Fargate<a name="getting-started-fargate"></a>
 
-Amazon Elastic Container Service \(Amazon ECS\) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage your containers\. You can host your containers on a serverless infrastructure that is managed by Amazon ECS by launching your services or tasks on AWS Fargate\. For a broad overview on Amazon ECS on Fargate, see [What is Amazon Elastic Container Service?](Welcome.md)\.
-
-Get started with Amazon ECS on AWS Fargate by using the Fargate launch type for your tasks in the Regions where Amazon ECS supports AWS Fargate\.
-
-Complete the following steps to get started with Amazon ECS on AWS Fargate\.
+* check [Amazon ECS models to run containers](Welcome.md#launch-typesa-namelaunch-typesa)
 
 ## Prerequisites<a name="first-run-prereqs"></a>
 
-Before you begin, be sure that you've completed the steps in [Set up to use Amazon ECS](get-set-up-for-amazon-ecs.md)\.
-+ Your user has administrator access\. For more information, see [Set up to use Amazon ECS](get-set-up-for-amazon-ecs.md)\.
-+ Your user has the IAM permissions to create a service role\. For more information, see [Creating a Role to Delegate Permissions to an AWS Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)\.
-+ A user with administrator access has manually created the task execution role so that it is available on the account to be used\. For more information, see [Amazon ECS task execution IAM role](task_execution_IAM_role.md)\. 
+* [Set up to use Amazon ECS](get-set-up-for-amazon-ecs.md)
+* [Set up user / admin access to Amazon ECS](get-set-up-for-amazon-ecs.md) 
+* [user / has IAM permissions -- to create a -- service role](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
+* [Amazon ECS task execution IAM role -- created by -- user / admin access](task_execution_IAM_role.md)
 
 ## Step 1: Create the cluster<a name="get-started-windows-fargate-cluster"></a>
 
+* TODO:
 Create a cluster that uses the default VPC\.
 
 Before you begin, assign the appropriate IAM permission\. For more information, see [Cluster examples](security_iam_id-based-policy-examples.md#IAM_cluster_policies)\.
